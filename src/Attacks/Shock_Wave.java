@@ -6,7 +6,8 @@ public class Shock_Wave extends SpecialMove {
     public Shock_Wave() {
         super(Type.ELECTRIC, 60, 1000000000);
     }
-
+    //@Override
+    //protected void
     @Override
     protected String describe() {
         return "Наносит урон и игнорирует изменения в показателях " +
