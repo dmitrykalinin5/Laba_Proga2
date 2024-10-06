@@ -4,6 +4,12 @@ import ru.ifmo.se.pokemon.*;
 
 public class Double_Team extends StatusMove {
     public Double_Team() {
-        super(Type.NORMAL, 0, 10000000);
+        super(Type.NORMAL, 0, 100);
+    }
+
+    @Override
+    protected String describe() {
+        return "Повышает уворотливость игрока на 1 уровень, затрудняя попадание в него. " +
+                "Каждая характеристика может быть увеличена максимум на +6 уровней.";
     }
 }
