@@ -10,7 +10,7 @@ public class Shock_Wave extends SpecialMove {
     @Override
     protected String describe() {
         return "Наносит урон и игнорирует изменения в показателях " +
-                "точности и уклонения. Однако она не поразит покемона на этапах неуязвимости: " +
+                "точности и уклонения. Однако она не поразит по22222кемона на этапах неуязвимости: " +
                 "\"Bounce\", \"Bid\", \"Dive\", \"Fly\", \"Phantom Force\", \"Shadow Force\" или \"Sky Drop\".";
     }
 }
