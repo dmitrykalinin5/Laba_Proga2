@@ -8,6 +8,11 @@ public class Confide extends StatusMove {
     }
 
     @Override
+    protected void applyOppEffects(Pokemon var1) {
+        var1.setMod(Stat.SPECIAL_ATTACK, -1);
+    }
+
+    @Override
     protected String describe() {
         return "Снижает силу специальной атаки противника на 1 уровень. " +
                 "Каждая характеристика может быть снижена максимум на -6 уровней.";
