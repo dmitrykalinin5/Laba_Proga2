@@ -1,7 +1,7 @@
 import Pokemons.*;
 import ru.ifmo.se.pokemon.*;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Battle b = new Battle();
         Pokemon p1 = new Helioptile("Чужой", 1);
