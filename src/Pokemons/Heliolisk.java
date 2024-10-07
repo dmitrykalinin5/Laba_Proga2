@@ -1,5 +1,5 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.SpecialMove.Focus_Blast;
 import ru.ifmo.se.pokemon.*;
 
 public class Heliolisk extends Helioptile {

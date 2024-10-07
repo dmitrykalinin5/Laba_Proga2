@@ -1,5 +1,6 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.PhysicalMove.Flame_Charge;
+import Attacks.StatusMove.Swagger;
 import ru.ifmo.se.pokemon.*;
 
 public class Chimchar extends Pokemon {

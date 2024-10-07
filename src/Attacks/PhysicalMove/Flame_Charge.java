@@ -1,5 +1,4 @@
-package Attacks;
-import Attacks.*;
+package Attacks.PhysicalMove;
 import ru.ifmo.se.pokemon.*;
 
 public class Flame_Charge extends PhysicalMove {
@@ -12,7 +11,6 @@ public class Flame_Charge extends PhysicalMove {
     }
     @Override
     protected String describe() {
-        return "Наносит урон и повышает скорость игрока на один уровень. " +
-                "Каждая характеристика может быть увеличена максимум на +6 уровней.";
+        return "использует Flame_Charge";
     }
 }

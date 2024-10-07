@@ -1,5 +1,5 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.StatusMove.Slack_Off;
 import ru.ifmo.se.pokemon.*;
 
 public class Monferno extends Chimchar {

@@ -1,5 +1,5 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.StatusMove.Will_O_Wisp;
 import ru.ifmo.se.pokemon.*;
 
 public class Infernape extends Monferno {

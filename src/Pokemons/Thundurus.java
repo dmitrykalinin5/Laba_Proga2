@@ -1,5 +1,8 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.SpecialMove.Focus_Blast;
+import Attacks.SpecialMove.Shock_Wave;
+import Attacks.SpecialMove.Sludge_Bomb;
+import Attacks.StatusMove.Double_Team;
 import ru.ifmo.se.pokemon.*;
 
 public class Thundurus extends Pokemon {

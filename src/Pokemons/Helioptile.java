@@ -1,5 +1,7 @@
 package Pokemons;
-import Attacks.*;
+import Attacks.PhysicalMove.Low_Sweep;
+import Attacks.StatusMove.Confide;
+import Attacks.StatusMove.Double_Team;
 import ru.ifmo.se.pokemon.*;
 
 public class Helioptile extends Pokemon {

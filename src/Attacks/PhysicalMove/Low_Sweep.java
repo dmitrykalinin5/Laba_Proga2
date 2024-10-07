@@ -1,5 +1,4 @@
-package Attacks;
-import Attacks.*;
+package Attacks.PhysicalMove;
 import ru.ifmo.se.pokemon.*;
 
 public class Low_Sweep extends PhysicalMove {
@@ -12,7 +11,6 @@ public class Low_Sweep extends PhysicalMove {
     }
     @Override
     protected String describe() {
-        return "Наносит урон и снижает скорость противника на 1 уровень. " +
-                "Каждая характеристика может быть снижена максимум на -6 уровней.";
+        return "использует Low_Sweep";
     }
 }
